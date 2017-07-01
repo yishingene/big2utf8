@@ -6,10 +6,15 @@
 \usage{
 big2utf8(filename, newfile)
 }
+\arguments{
+\item{filename}{This is source file.}
+
+\item{newfile}{This is destination file.}
+}
 \description{
 This function allows you to covert file from big5 to utf8.
 }
 \examples{
-big2utf8(sourcefile,newfile)
+big2utf8('sourcefile.txt','newfile.csv')
 }
 \keyword{big5}
